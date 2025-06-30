@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <div class="container"></div>
+    <header id="header">
+      <div class="logo">
+      <img id="header-img" src="https://images.unsplash.com/vector-1741707326620-dbc364f4103b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHRyYW5zcGFyZW50JTIwY2FrZSUyMGxvZ298ZW58MHx8MHx8fDA%3D" alt="two tier cake illustration" width="100px" height="100px">
+      <h1>AVNEET'S BAKERY</h1>
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li class="nav-link"><a href="#cupcakes">CUPCAKES</a></li>
+          <li class="nav-link"><a href="#cakes">CAKES</a></li>
+          <li class="nav-link"><a href="#customize">CUSTOMIZE</a></li>
+        </ul>
+        </nav>
+    </header>
+    
+    <section id="cupcakes">
+      <hr></hr>
+      <h2>CUPCAKES</h2>
+      <hr></hr>
+      <div class="cupcake">
+        <div class="cupcake1">
+          <figure>
+          <img class="cupcake1-img" src="https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y3VwY2FrZXN8ZW58MHx8MHx8fDA%3D" alt="red-velvet cupcake">
+          <figcaption><span class="bold">Red Velvet Cupcake $4.99 </span><p class="filling">Red Velvet Cake with Cream cheese filling</p></figcaption>
+          </figure>
+        </div>
+        <div class="cupcake2">
+          <figure>
+          <img class="cupcake2-img" src="https://images.unsplash.com/photo-1603532648955-039310d9ed75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y3VwY2FrZXN8ZW58MHx8MHx8fDA%3D" alt="chocolate hazelnut cupcake">
+          <figcaption><span class="bold">Chocolate Hazelnut Cupcake $4.99 </span><p class="filling">Chocolate Cake with hazelnut filling</p></figcaption>
+          </figure>
+        </div>
+
+        <div class="cupcake3">
+                    <figure>
+          <img class="cupcake3-img" src="https://images.unsplash.com/photo-1612203985729-70726954388c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGN1cGNha2VzfGVufDB8fDB8fHww" alt="oreo cupcake">
+          <figcaption><span class="bold">Oreo Cupcake $4.99 </span><p class="filling">Chocolate Cake with Oreo filling</p></figcaption>
+          </figure>
+        </div>
+    </section>
+    <section id="cakes">
+      <hr></hr>
+      <h2>CAKES</h2>
+      <hr></hr>
+      <div class="cake">
+        <div class="cake1">
+          <figure>
+          <img class="cake1-img" src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FrZXN8ZW58MHx8MHx8fDA%3D" alt="strawberry shortcake">
+          <figcaption><span class="bold">Strawberry Shortcake $19.99 </span><p class="filling">Vanilla cake with Strawberry filling</p></figcaption>
+          </figure>
+        </div>
+        <div class="cake2">
+          <figure>
+          <img class="cake2-img" src="https://images.unsplash.com/photo-1605807646983-377bc5a76493?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNha2VzfGVufDB8fDB8fHww" alt="black forest cake">
+          <figcaption><span class="bold">Black Forest Cake $19.99 </span><p class="filling">Chocolate Cake with whipped ceam and cherries</p></figcaption>
+          </figure>
+        </div>
+
+        <div class="cake3">
+                    <figure>
+          <img class="cake3-img" src="https://images.unsplash.com/photo-1616690710400-a16d146927c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2FrZXN8ZW58MHx8MHx8fDA%3D" alt="oreo cake">
+          <figcaption><span class="bold">Oreo Cake $19.99 </span><p class="filling">Chocolate Cake with Oreo filling</p></figcaption>
+          </figure>
+        </div>
+        </section>
+      <section class="video">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/AOpSuWgXRDA?si=MlrgWwvoW_H18NZ6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+   
+    <section id="customize">
+      
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+        <hr></hr>
+          <h2>CUSTOMIZE</h2>
+          <hr></hr>
+          <p>Please enter your information below.</p>
+          <label for="name">Name: 
+            <input type="text" required id="name" name="name">
+          <label>
+          <label for="email">Email:
+            <input type="email" required id="email" placeholder="Ex. 123@gmail.com" name="email"></input>
+          </label>
+          <label for="number">Phone Number:
+            <input id="number" type="number" required minlength="10" maxlength="10" name="numebr"></input>
+            </label>
+          <label for="inquiry">Please leave your inquiry here:</label>
+            <textarea id="inquiry" type="text" required cols="30" rows="10" name="inquiry"></textarea>
+          <input id="submit" type="submit" value="Submit">
+          
+        </form>
+    </section>
+  </div>
+  </body>
+</html>
+
+*{  
+  box-sizing: border-box;
+}
+body{
+  font-family: "Arial", "Helvetica", sans-serif;
+  background-color:  lavenderblush;
+}
+header{
+  margin:0;
+  padding: 0;
+  background-color: lavenderblush;
+  position: fixed;
+    top: 0;
+    min-height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.logo{
+  display: flex;
+  width: 50vw;
+  height: 110px;
+}
+#nav-bar ul{
+ width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+li{
+  list-style: none;
+  margin-right: 20px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+h1, h2{
+  color:maroon;
+  font-weight: bold;
+  font-family:"Georgia", "Times New Roman", serif;
+}
+h2{
+  text-align: center;
+  font-size: 30px;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+hr{
+  padding: 0;
+  margin: 0;
+}
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+#cupcakes{
+  margin-top: 120px;
+}
+.cupcake{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.cupcake1{
+  width: 350px;
+  height: 400px;
+  margin: 10px;
+}
+.cupcake1-img{
+  object-fit: cover;
+  width:250px;
+  height:300px;
+}
+.cupcake2{
+  width: 350px;
+  height: 400px;
+  margin: 10px;
+}
+.cupcake2-img{
+  object-fit: cover;
+  width:250px;
+  height:300px;
+
+}
+.cupcake3{
+  width: 350px;
+  height: 400px;
+  margin: 10px;
+}
+.cupcake3-img{
+  object-fit: cover;
+  width:250px;
+  height:300px;
+
+}
+figcaption{
+  font-style: italic;
+  text-align: center;
+}
+.bold{
+  font-weight: bold;
+  width: 400px;
+}
+.cake{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.cake1{
+  width: 350px;
+  height: 400px;
+  margin: 10px;
+}
+.cake1-img{
+  object-fit: cover;
+  width:250px;
+  height:300px;
+}
+.cake{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.cake2{
+  width: 350px;
+  height: 400px;
+  margin: 10px;
+}
+.cake2-img{
+  object-fit: cover;
+  width:250px;
+  height:300px;
+}
+.cake{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.cake3{
+  width: 350px;
+  height: 400px;
+  margin: 10px;
+}
+.cake3-img{
+  object-fit: cover;
+  width:250px;
+  height:300px;
+}
+.video iframe{
+  margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
