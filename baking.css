@@ -1,0 +1,161 @@
+*{  
+  box-sizing: border-box;
+}
+body{
+  font-family: "Arial", "Helvetica", sans-serif;
+  background-color:  lavenderblush;
+}
+header{
+  margin:0;
+  padding: 0;
+  background-color: lavenderblush;
+  position: fixed;
+    top: 0;
+    min-height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.logo{
+  display: flex;
+  width: 50vw;
+  height: 110px;
+}
+#nav-bar ul{
+ width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+li{
+  list-style: none;
+  margin-right: 20px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+h1, h2{
+  color:maroon;
+  font-weight: bold;
+  font-family:"Georgia", "Times New Roman", serif;
+}
+h2{
+  text-align: center;
+  font-size: 30px;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+hr{
+  padding: 0;
+  margin: 0;
+}
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+#cupcakes{
+  margin-top: 120px;
+}
+.cupcake{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.cupcake1{
+  width: 350px;
+  height: 400px;
+  margin: 10px;
+}
+.cupcake1-img{
+  object-fit: cover;
+  width:250px;
+  height:300px;
+}
+.cupcake2{
+  width: 350px;
+  height: 400px;
+  margin: 10px;
+}
+.cupcake2-img{
+  object-fit: cover;
+  width:250px;
+  height:300px;
+
+}
+.cupcake3{
+  width: 350px;
+  height: 400px;
+  margin: 10px;
+}
+.cupcake3-img{
+  object-fit: cover;
+  width:250px;
+  height:300px;
+
+}
+figcaption{
+  font-style: italic;
+  text-align: center;
+}
+.bold{
+  font-weight: bold;
+  width: 400px;
+}
+.cake{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.cake1{
+  width: 350px;
+  height: 400px;
+  margin: 10px;
+}
+.cake1-img{
+  object-fit: cover;
+  width:250px;
+  height:300px;
+}
+.cake{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.cake2{
+  width: 350px;
+  height: 400px;
+  margin: 10px;
+}
+.cake2-img{
+  object-fit: cover;
+  width:250px;
+  height:300px;
+}
+.cake{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.cake3{
+  width: 350px;
+  height: 400px;
+  margin: 10px;
+}
+.cake3-img{
+  object-fit: cover;
+  width:250px;
+  height:300px;
+}
+.video iframe{
+  margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
